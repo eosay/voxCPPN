@@ -7,6 +7,7 @@ resolution such as the default 32^3 and visualize at a higher resolution 64-256^
 
 <img src="images/latent.gif" >
 Smooth movement through the latent space of three encoded voxel shapes.
+
 <img src="images/voxels.gif" >
 Arbitrary resolution effect (feeding in a larger SIZE parameter)
 
@@ -72,4 +73,7 @@ optional arguments:
 
 ## Implemented With
 
-* [Tensorflow](https://www.tensorflow.org/) -The machine learning framework used
+* [TensorFlow](https://www.tensorflow.org/) -The machine learning framework used
+* [three.js](https://threejs.org/) -Library for 3D rendering with WebGL
+
+
