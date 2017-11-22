@@ -1,0 +1,4 @@
+tensorflow
+numpy
+Jinja2
+Pillow
