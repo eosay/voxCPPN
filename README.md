@@ -6,10 +6,10 @@ The network in this project has a low number of parameters and can be trained on
 resolution such as the default 32^3 and visualize at a higher resolution 64-256^3. Be careful with visualizations at 256^3 resolution, memory can run out quickly.
 
 <img src="images/latent.gif" >
-Smooth movement through the latent space of three encoded voxel shapes.
+<p align="center">Smooth movement through the latent space of three encoded voxel shapes.</p><br>
 
 <img src="images/voxels.gif" >
-Arbitrary resolution effect (feeding in a larger SIZE parameter)
+<p align="center">Arbitrary resolution effect (feeding in a larger SIZE parameter).</p>
 
 
 ### Prerequisites
