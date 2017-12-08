@@ -19,8 +19,7 @@ def main(args):
                     latent op
         --seed SEED  tensorflow weight init seed
        
-       The network is very small which allows for fast training (<10 min on CPU) and
-       overfitting (something that is actually wanted for this net!) However it should 
+       The network is very small which allows for fast training (<10 min on CPU). However it should 
        be noted that there is a balance with network size and the net's ability to 
        encode complex shapes. This is purely a simple interesting project for generative modeling
        that can be trained and run on a laptop. Inspired by Compositional Pattern Producing Networks (CPPN).
@@ -58,7 +57,6 @@ def main(args):
 
     # small feed forward neural network graph
     # a small network seems to work better, the less paramters, 
-    # the easier it overfits to the shapes (which is what we want!)
     # but a larger network does allow for more complexity to be encoded
     x = tf.placeholder(tf.float32, [None, 5])
     y = tf.placeholder(tf.float32, [None, 1])
