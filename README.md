@@ -3,7 +3,7 @@ Generative CPPN-like neural network with latent vectors for voxel shape encoding
 The main network is a small CPPN-like feedforward neural network that encodes binary voxel shapes. The input to the net 
 is (x, y, z, radius, latent) and the output is the probability of a voxel at that position. Each shape the network encodes is assigned a latent vector, creating a traversable search space of data in between the encoded voxel shapes.
 The network in this project has a low number of parameters and can be trained on a CPU in <10 minutes. Train on a low 
-resolution such as the default 32^3 and visualize at a higher resolution 64-256^3. Be careful with visualizations at 256^3 resolution, memory can run out quickly.
+resolution such as the default 32^3 and visualize at a higher resolution 64-256^3.
 
 <img src="images/latent.gif" >
 <p align="center">Smooth movement through the latent space of three encoded voxel shapes.</p><br>
